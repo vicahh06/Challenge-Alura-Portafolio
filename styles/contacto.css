@@ -1,0 +1,69 @@
+.formcontato{
+   
+    display: flex;
+    padding: 1rem;
+}
+
+.formcontato__esquerda{
+    display: none;
+}
+
+.formcontato__contacto{
+    width: 80vw;
+}
+
+.formcontato__text{
+    display: flex;
+    flex-direction: column;
+}
+
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+}
+
+.formcontato__form input{
+    margin: 1rem 0;
+    height: 5vh;
+    box-shadow: 10px 10px 34px -12px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 10px 10px 34px -12px rgba(0,0,0,0.3);
+    -moz-box-shadow: 10px 10px 34px -12px rgba(0,0,0,0.3);
+    border: none;
+}
+
+.formcontato__textarea{
+    margin: 1rem 0;
+    box-shadow: 10px 10px 34px -12px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 10px 10px 34px -12px rgba(0,0,0,0.3);
+    -moz-box-shadow: 10px 10px 34px -12px rgba(0,0,0,0.3);
+}
+
+.formcontato__boton{
+   
+    border: none;
+    height: 5vh;
+    box-shadow: 10px 10px 34px -12px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 10px 10px 34px -12px rgba(0,0,0,0.3);
+    -moz-box-shadow: 10px 10px 34px -12px rgba(0,0,0,0.3);
+}
+
+@media only screen and (min-width: 992px){
+    .formcontato{
+        margin-top: 5rem;
+        justify-content: flex-end;
+    }
+
+    .formcontato__esquerda{
+        display: block;
+        margin-right: 7vw;
+    }
+
+    .formcontato__img{
+        height: 75vh;
+    }
+
+    .formcontato__contacto{
+        display: flex;
+    }
+
+}

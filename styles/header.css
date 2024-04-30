@@ -1,0 +1,47 @@
+.menu{
+    height: 60px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu__header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logoImg{
+    height: 22px;
+}
+
+.menu__list{
+    display: none;
+}
+
+.menu__list a {
+    color: #464646;
+}
+
+@media (min-width: 1024px){
+    .menu{
+        padding: 20px 100px;
+    }
+
+    .menu__header{
+        font-size: 16px;
+    }
+
+    .menu__list{
+        display: flex;
+        flex-direction: row;
+        font-size: 16px;
+        gap: 10px ;
+    }
+
+    .menu__list__item-c{
+     display: none;   
+    }
+
+}
